@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/player_view_holder"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+    <LinearLayout
+        android:id="@+id/select_video_btn_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/player_view_holder"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp">
+        <Button
+            android:id="@+id/select_video_btn_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_video_text" />
+        <Button
+            android:id="@+id/select_video_btn_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/select_video_text" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/play_pause_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/select_video_btn_holder"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/play_pause_btn_play_text" />
+
+    <Button
+        android:id="@+id/restart_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/play_pause_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/restart_btn_text" />
+
+</RelativeLayout>

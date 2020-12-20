@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">VideoTransition</string>
+
+    <string name="select_video_text">Select a video</string>
+    <string name="change_video_text">Change the video</string>
+
+    <string name="play_pause_btn_play_text">Play</string>
+    <string name="play_pause_btn_pause_text">Pause</string>
+
+    <string name="restart_btn_text">Restart</string>
+
+</resources>
